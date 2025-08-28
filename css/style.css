@@ -1,0 +1,71 @@
+@font-face {
+  font-display: swap;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/nunito-sans-v18-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/nunito-sans-v18-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/nunito-sans-v18-latin-800.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans";
+}
+
+.containers {
+  max-width: 1220px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.parent {
+  background-image: url(../images/headerAndHero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.2%;
+  line-height: 20px;
+  color: #fdfdfd;
+  padding: 16px 36px;
+  background-color: #1a3e3e;
+  border-radius: 4px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.bg-gradient {
+  background: #ffffff33;
+  backdrop-filter: blur(6px);
+}
